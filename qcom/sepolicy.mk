@@ -4,4 +4,5 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/hex/sepolicy/qcom
+    device/hex/sepolicy/qcom/common \
+    device/hex/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
